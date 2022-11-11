@@ -1,0 +1,11 @@
+x = list = []
+list.append("18")
+list.append("huế")
+
+y = list = [12, 45, -1, -0.56, "abc"]
+x.extend(y)
+print(x)
+print(x[-1])
+print(x[0])
+print(x[0:6])
+print(x[3:7])
